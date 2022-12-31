@@ -13,10 +13,13 @@ public class UserInfo {
 
     public void splitString(String info) {
         userInfo = info.split(" ");
+        System.out.println(userInfo);
     }
 
     @Override
     public String toString() {
         return Arrays.toString(userInfo);
     }
+
+
 }
