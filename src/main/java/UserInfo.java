@@ -13,7 +13,6 @@ public class UserInfo {
 
     public void splitString(String info) {
         userInfo = info.split(" ");
-        System.out.println(userInfo);
     }
 
     @Override
